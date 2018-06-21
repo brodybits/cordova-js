@@ -20,6 +20,11 @@
 -->
 ## Release Notes for Cordova JS ##
 
+### 4.2.4 (Jun 20, 2018)
+* [CB-9366](https://issues.apache.org/jira/browse/CB-9366) Log error.stack
+* [CB-14145](https://issues.apache.org/jira/browse/CB-14145) `package.json` resolve `npm audit` warnings in devDependencies
+* Other test fixes
+
 ### 4.2.3 (Jun 18, 2018)
 * [CB-13501](https://issues.apache.org/jira/browse/CB-13501) add support for node 8
 
