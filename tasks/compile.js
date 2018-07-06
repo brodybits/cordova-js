@@ -50,9 +50,9 @@ module.exports = function(grunt) {
             platformPath = pkgJson['cordova-platforms']['cordova-'+platformName];
         }
         //Get absolute path to platform
-        if(platformPath) {
-            platformPath = path.resolve(platformPath);
-        }
+        //* if(platformPath) {
+        //*     platformPath = path.resolve(platformPath);
+        //* }
         if(!platformVersion) {
             var platformPkgJson;
 
